@@ -6,7 +6,7 @@ const methodOverride = require('method-override');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-mongoose.connect('mongodb+srv://admin:admin789@cluster0.4ik4f.mongodb.net/blog?retryWrites=true&w=majority');
+mongoose.connect('Paste your Mongodb atlas connection link');
 
 app.set('view engine','ejs');
 app.use(express.urlencoded({ extended: false}))
